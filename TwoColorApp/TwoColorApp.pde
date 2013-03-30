@@ -3,6 +3,9 @@ PImage img;
 //the RGB threshhold for changing an image's color.
 int threshhold = 150;
 
+int darkRed = 255, darkGreen = 255, darkBlue = 255;
+int lightRed = 0, lightGreen = 0, lightBlue = 0;
+
 //the images that are manipulated are in the data folder.  Place the image in that folder and alter the importedImage variable accordingly.
 String importedImage = "astronaut.jpg";
 
@@ -29,10 +32,10 @@ void renderPic() {
       int sumRGB = (int) (r + g + b)/3;
       
       if(sumRGB > threshhold){
-        pixels[i]=color(255,255,255);
+        pixels[i]=color(darkRed,darkGreen,darkBlue);
       }
       else{
-        pixels[i]=color(0,0,0);
+        pixels[i]=color(lightRed,lightGreen,lightBlue);
       }
   }
   
