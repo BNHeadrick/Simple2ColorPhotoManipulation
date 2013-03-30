@@ -1,0 +1,4 @@
+Simple2ColorPhotoManipulation
+=============================
+
+This is a very simple application built in processing that does one thing; make input images into a monochrome one.  Not grayscale, just complete black and complete white (see my profile pic for an example).  I basically just made it out of frustration from Gimp when I couldn't easily find out how to do the same photo manipulation in that application, and coding this took less time.  It does NOT output any new files, it simply renders the modified image and requires the user to printscreen the sketch in order to save it.  This was for personal use, but if you want to use the code, feel free. I give no guarantees about its functionality.
